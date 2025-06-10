@@ -19,8 +19,8 @@ public class Smallest_Missing_Postive_Number {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == res) {
 				res++;
-			}  else if (arr[i] > res) {
-                break;
+			} else if (arr[i] > res) {
+				break;
 			}
 		}
 

@@ -16,7 +16,7 @@ public class MissingElements {
 
 		List<Integer> num2 = new ArrayList<Integer>();
 
-		for (int i = 0; i < num.length-1; i++) {
+		for (int i = 0; i < num.length - 1; i++) {
 
 			int current = num[i];
 			int next = num[i + 1];
